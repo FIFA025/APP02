@@ -1,2 +1,66 @@
+
 // For information on how to create your own theme, please see:
 // http://ionicframework.com/docs/theming/
+ 
+:root {
+  --ion-color-blue: #499fe7;
+  --ion-color-blue-rgb: 73,159,231;
+  --ion-color-blue-contrast: #000000;
+  --ion-color-blue-contrast-rgb: 0,0,0;
+  --ion-color-blue-shade: #408ccb;
+  --ion-color-blue-tint: #5ba9e9;
+      --ion-color-purple: #cf34d8;
+  --ion-color-purple-rgb: 207,52,216;
+  --ion-color-purple-contrast: #000000;
+  --ion-color-purple-contrast-rgb: 0,0,0;
+  --ion-color-purple-shade: #b62ebe;
+  --ion-color-purple-tint: #d448dc;
+      --ion-color-mint: #45e0d0;
+  --ion-color-mint-rgb: 69,224,208;
+  --ion-color-mint-contrast: #000000;
+  --ion-color-mint-contrast-rgb: 0,0,0;
+  --ion-color-mint-shade: #3dc5b7;
+  --ion-color-mint-tint: #58e3d5;
+      --ion-color-lightpurple: #ffb7ff;
+  --ion-color-lightpurple-rgb: 255,183,255;
+  --ion-color-lightpurple-contrast: #000000;
+  --ion-color-lightpurple-contrast-rgb: 0,0,0;
+  --ion-color-lightpurple-shade: #e0a1e0;
+  --ion-color-lightpurple-tint: #ffbeff;
+  }
+  
+  .ion-color-blue {
+  --ion-color-base: var(--ion-color-blue);
+  --ion-color-base-rgb: var(--ion-color-blue-rgb);
+  --ion-color-contrast: var(--ion-color-blue-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-blue-contrast-rgb);
+  --ion-color-shade: var(--ion-color-blue-shade);
+  --ion-color-tint: var(--ion-color-blue-tint);
+  }
+  
+  .ion-color-purple {
+  --ion-color-base: var(--ion-color-purple);
+  --ion-color-base-rgb: var(--ion-color-purple-rgb);
+  --ion-color-contrast: var(--ion-color-purple-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-purple-contrast-rgb);
+  --ion-color-shade: var(--ion-color-purple-shade);
+  --ion-color-tint: var(--ion-color-purple-tint);
+  }
+  
+  .ion-color-mint {
+  --ion-color-base: var(--ion-color-mint);
+  --ion-color-base-rgb: var(--ion-color-mint-rgb);
+  --ion-color-contrast: var(--ion-color-mint-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-mint-contrast-rgb);
+  --ion-color-shade: var(--ion-color-mint-shade);
+  --ion-color-tint: var(--ion-color-mint-tint);
+  }
+  
+  .ion-color-lightpurple {
+  --ion-color-base: var(--ion-color-lightpurple);
+  --ion-color-base-rgb: var(--ion-color-lightpurple-rgb);
+  --ion-color-contrast: var(--ion-color-lightpurple-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-lightpurple-contrast-rgb);
+  --ion-color-shade: var(--ion-color-lightpurple-shade);
+  --ion-color-tint: var(--ion-color-lightpurple-tint);
+  }
